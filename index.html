@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>交流时点与信任博弈中的合作行为</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <main id="viewport" aria-label="16页信任博弈研究汇报">
+    <div id="stage"></div>
+  </main>
+  <nav id="controls" aria-label="演示控制">
+    <button id="previous" aria-label="上一页" title="上一页（←）">←</button>
+    <span id="counter">01 / 16</span>
+    <button id="next" aria-label="下一页" title="下一页（→ / 空格）">→</button>
+    <button id="motion" title="关闭或开启动画（A）；关闭时立即显示完整图表">动画 开</button>
+    <button id="fullscreen" title="全屏（F）">全屏</button>
+  </nav>
+  <div id="progress" aria-hidden="true"></div>
+  <div id="tooltip" role="tooltip"></div>
+  <div id="announcer" class="sr-only" aria-live="polite"></div>
+  <script src="assets/data.js"></script>
+  <script src="assets/slides.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+# Local research evidence and exports
+verification/
+*.csv
+*.zip
+*.docx
+*.pptx
+
+# Credentials and machine files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+node_modules/
+__pycache__/
