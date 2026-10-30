@@ -1,12 +1,13 @@
 {
   "meta": {
-    "date": "2026-10-28",
+    "date": "2026-10-31",
     "export_date": "2026-10-26",
     "groups": {
       "E": "提前交流",
       "M": "中途交流"
     },
-    "sample": "E10对 / M9对；排除工作人员所在M01、M10"
+    "sample": "E10对 / M9对；排除工作人员所在M01、M10",
+    "version": "v2-merged"
   },
   "summary": {
     "raw_participants": 42,
@@ -4162,5 +4163,1626 @@
     "#08326e",
     "#08316d",
     "#08306b"
+  ],
+  "promise": {
+    "rates": [
+      {
+        "group": "全部",
+        "window": "全部可判定",
+        "success": 105,
+        "total": 116,
+        "rate": 0.9051724137931034
+      },
+      {
+        "group": "全部",
+        "window": "非末轮",
+        "success": 98,
+        "total": 103,
+        "rate": 0.9514563106796117
+      },
+      {
+        "group": "全部",
+        "window": "R10",
+        "success": 7,
+        "total": 13,
+        "rate": 0.5384615384615384
+      },
+      {
+        "group": "E",
+        "window": "全部可判定",
+        "success": 73,
+        "total": 81,
+        "rate": 0.9012345679012346
+      },
+      {
+        "group": "E",
+        "window": "非末轮",
+        "success": 70,
+        "total": 74,
+        "rate": 0.9459459459459459
+      },
+      {
+        "group": "E",
+        "window": "R10",
+        "success": 3,
+        "total": 7,
+        "rate": 0.42857142857142855
+      },
+      {
+        "group": "M",
+        "window": "全部可判定",
+        "success": 32,
+        "total": 35,
+        "rate": 0.9142857142857143
+      },
+      {
+        "group": "M",
+        "window": "非末轮",
+        "success": 28,
+        "total": 29,
+        "rate": 0.9655172413793104
+      },
+      {
+        "group": "M",
+        "window": "R10",
+        "success": 4,
+        "total": 6,
+        "rate": 0.6666666666666666
+      }
+    ],
+    "rules": [
+      {
+        "pair": "E01",
+        "window": "R1—R10",
+        "rule": "r = 9（x = 6）",
+        "condition": "x6",
+        "message_seq": [
+          4,
+          6,
+          11,
+          12,
+          14,
+          25,
+          33
+        ],
+        "fulfilled": 9,
+        "eligible": 10
+      },
+      {
+        "pair": "E02",
+        "window": "R1—R10",
+        "rule": "r = 1.5x",
+        "condition": "positive",
+        "message_seq": [
+          1,
+          8,
+          9,
+          10,
+          13
+        ],
+        "fulfilled": 5,
+        "eligible": 10
+      },
+      {
+        "pair": "E03",
+        "window": "R1—R8",
+        "rule": "r = 9（x = 6）",
+        "condition": "x6",
+        "message_seq": [
+          14,
+          15,
+          16,
+          26,
+          27
+        ],
+        "fulfilled": 8,
+        "eligible": 8
+      },
+      {
+        "pair": "E04",
+        "window": "R1—R10",
+        "rule": "r = 1.5x",
+        "condition": "positive",
+        "message_seq": [
+          12,
+          13,
+          16,
+          19,
+          22
+        ],
+        "fulfilled": 9,
+        "eligible": 10
+      },
+      {
+        "pair": "E05",
+        "window": "R1—R10",
+        "rule": "r = 9（x = 6）",
+        "condition": "x6",
+        "message_seq": [
+          9,
+          10,
+          11,
+          12,
+          14
+        ],
+        "fulfilled": 10,
+        "eligible": 10
+      },
+      {
+        "pair": "E06",
+        "window": "R1—R10",
+        "rule": "r = 9（x = 6）",
+        "condition": "x6",
+        "message_seq": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "fulfilled": 10,
+        "eligible": 10
+      },
+      {
+        "pair": "E08",
+        "window": "R1—R10",
+        "rule": "r = 1.5x",
+        "condition": "positive",
+        "message_seq": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "fulfilled": 9,
+        "eligible": 10
+      },
+      {
+        "pair": "E09",
+        "window": "R1—R10",
+        "rule": "r = 2x − 3（等收益）",
+        "condition": "x6",
+        "message_seq": [
+          3,
+          4,
+          5,
+          8
+        ],
+        "fulfilled": 10,
+        "eligible": 10
+      },
+      {
+        "pair": "E10",
+        "window": "R1—R3",
+        "rule": "r = 9（x = 6）",
+        "condition": "x6",
+        "message_seq": [
+          2,
+          4
+        ],
+        "fulfilled": 3,
+        "eligible": 3
+      },
+      {
+        "pair": "M02",
+        "window": "R6—R10",
+        "rule": "r = 9（x = 6）",
+        "condition": "x6",
+        "message_seq": [
+          3,
+          4,
+          5
+        ],
+        "fulfilled": 5,
+        "eligible": 5
+      },
+      {
+        "pair": "M03",
+        "window": "R6—R10",
+        "rule": "r = 9（x = 6）",
+        "condition": "x6",
+        "message_seq": [
+          2,
+          3,
+          4
+        ],
+        "fulfilled": 3,
+        "eligible": 4
+      },
+      {
+        "pair": "M04",
+        "window": "R6—R10",
+        "rule": "r = 1.5x",
+        "condition": "positive",
+        "message_seq": [
+          2,
+          3,
+          4
+        ],
+        "fulfilled": 5,
+        "eligible": 5
+      },
+      {
+        "pair": "M05",
+        "window": "R6—R10",
+        "rule": "r = 9（x = 6）",
+        "condition": "x6",
+        "message_seq": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          11
+        ],
+        "fulfilled": 5,
+        "eligible": 5
+      },
+      {
+        "pair": "M06",
+        "window": "R6—R10",
+        "rule": "r = x + 0.5",
+        "condition": "positive",
+        "message_seq": [
+          9,
+          11
+        ],
+        "fulfilled": 4,
+        "eligible": 5
+      },
+      {
+        "pair": "M07",
+        "window": "R6—R10",
+        "rule": "r = 9（x = 6）",
+        "condition": "x6",
+        "message_seq": [
+          3,
+          6,
+          7,
+          10,
+          11
+        ],
+        "fulfilled": 5,
+        "eligible": 5
+      },
+      {
+        "pair": "M08",
+        "window": "R6—R10",
+        "rule": "r = 2x − 3（等收益）",
+        "condition": "atleast3",
+        "message_seq": [
+          3,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "fulfilled": 4,
+        "eligible": 5
+      },
+      {
+        "pair": "M11",
+        "window": "R6",
+        "rule": "r = 9（x = 6）",
+        "condition": "x6",
+        "message_seq": [
+          5,
+          6
+        ],
+        "fulfilled": 1,
+        "eligible": 1
+      }
+    ],
+    "scored": [
+      {
+        "pair": "E01",
+        "group": "E",
+        "round": 1,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E01",
+        "group": "E",
+        "round": 2,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E01",
+        "group": "E",
+        "round": 3,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E01",
+        "group": "E",
+        "round": 4,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E01",
+        "group": "E",
+        "round": 5,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E01",
+        "group": "E",
+        "round": 6,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E01",
+        "group": "E",
+        "round": 7,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E01",
+        "group": "E",
+        "round": 8,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E01",
+        "group": "E",
+        "round": 9,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E01",
+        "group": "E",
+        "round": 10,
+        "x": 6,
+        "r": 0.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": false
+      },
+      {
+        "pair": "E02",
+        "group": "E",
+        "round": 1,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E02",
+        "group": "E",
+        "round": 2,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E02",
+        "group": "E",
+        "round": 3,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E02",
+        "group": "E",
+        "round": 4,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E02",
+        "group": "E",
+        "round": 5,
+        "x": 6,
+        "r": 8.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": false
+      },
+      {
+        "pair": "E02",
+        "group": "E",
+        "round": 6,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E02",
+        "group": "E",
+        "round": 7,
+        "x": 6,
+        "r": 8.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": false
+      },
+      {
+        "pair": "E02",
+        "group": "E",
+        "round": 8,
+        "x": 6,
+        "r": 7.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": false
+      },
+      {
+        "pair": "E02",
+        "group": "E",
+        "round": 9,
+        "x": 5,
+        "r": 8.0,
+        "target": 7.5,
+        "eligible": true,
+        "fulfilled": false
+      },
+      {
+        "pair": "E02",
+        "group": "E",
+        "round": 10,
+        "x": 5,
+        "r": 1.0,
+        "target": 7.5,
+        "eligible": true,
+        "fulfilled": false
+      },
+      {
+        "pair": "E03",
+        "group": "E",
+        "round": 1,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E03",
+        "group": "E",
+        "round": 2,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E03",
+        "group": "E",
+        "round": 3,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E03",
+        "group": "E",
+        "round": 4,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E03",
+        "group": "E",
+        "round": 5,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E03",
+        "group": "E",
+        "round": 6,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E03",
+        "group": "E",
+        "round": 7,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E03",
+        "group": "E",
+        "round": 8,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E04",
+        "group": "E",
+        "round": 1,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E04",
+        "group": "E",
+        "round": 2,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E04",
+        "group": "E",
+        "round": 3,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E04",
+        "group": "E",
+        "round": 4,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E04",
+        "group": "E",
+        "round": 5,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E04",
+        "group": "E",
+        "round": 6,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E04",
+        "group": "E",
+        "round": 7,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E04",
+        "group": "E",
+        "round": 8,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E04",
+        "group": "E",
+        "round": 9,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E04",
+        "group": "E",
+        "round": 10,
+        "x": 6,
+        "r": 0.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": false
+      },
+      {
+        "pair": "E05",
+        "group": "E",
+        "round": 1,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E05",
+        "group": "E",
+        "round": 2,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E05",
+        "group": "E",
+        "round": 3,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E05",
+        "group": "E",
+        "round": 4,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E05",
+        "group": "E",
+        "round": 5,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E05",
+        "group": "E",
+        "round": 6,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E05",
+        "group": "E",
+        "round": 7,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E05",
+        "group": "E",
+        "round": 8,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E05",
+        "group": "E",
+        "round": 9,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E05",
+        "group": "E",
+        "round": 10,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E06",
+        "group": "E",
+        "round": 1,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E06",
+        "group": "E",
+        "round": 2,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E06",
+        "group": "E",
+        "round": 3,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E06",
+        "group": "E",
+        "round": 4,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E06",
+        "group": "E",
+        "round": 5,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E06",
+        "group": "E",
+        "round": 6,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E06",
+        "group": "E",
+        "round": 7,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E06",
+        "group": "E",
+        "round": 8,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E06",
+        "group": "E",
+        "round": 9,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E06",
+        "group": "E",
+        "round": 10,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E08",
+        "group": "E",
+        "round": 1,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E08",
+        "group": "E",
+        "round": 2,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E08",
+        "group": "E",
+        "round": 3,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E08",
+        "group": "E",
+        "round": 4,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E08",
+        "group": "E",
+        "round": 5,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E08",
+        "group": "E",
+        "round": 6,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E08",
+        "group": "E",
+        "round": 7,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E08",
+        "group": "E",
+        "round": 8,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E08",
+        "group": "E",
+        "round": 9,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E08",
+        "group": "E",
+        "round": 10,
+        "x": 6,
+        "r": 8.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": false
+      },
+      {
+        "pair": "E09",
+        "group": "E",
+        "round": 1,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E09",
+        "group": "E",
+        "round": 2,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E09",
+        "group": "E",
+        "round": 3,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E09",
+        "group": "E",
+        "round": 4,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E09",
+        "group": "E",
+        "round": 5,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E09",
+        "group": "E",
+        "round": 6,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E09",
+        "group": "E",
+        "round": 7,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E09",
+        "group": "E",
+        "round": 8,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E09",
+        "group": "E",
+        "round": 9,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E09",
+        "group": "E",
+        "round": 10,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E10",
+        "group": "E",
+        "round": 1,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E10",
+        "group": "E",
+        "round": 2,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "E10",
+        "group": "E",
+        "round": 3,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M02",
+        "group": "M",
+        "round": 6,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M02",
+        "group": "M",
+        "round": 7,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M02",
+        "group": "M",
+        "round": 8,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M02",
+        "group": "M",
+        "round": 9,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M02",
+        "group": "M",
+        "round": 10,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M03",
+        "group": "M",
+        "round": 6,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M03",
+        "group": "M",
+        "round": 7,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M03",
+        "group": "M",
+        "round": 8,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M03",
+        "group": "M",
+        "round": 9,
+        "x": 6,
+        "r": 8.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": false
+      },
+      {
+        "pair": "M03",
+        "group": "M",
+        "round": 10,
+        "x": 0,
+        "r": 0.0,
+        "target": 9.0,
+        "eligible": false,
+        "fulfilled": false
+      },
+      {
+        "pair": "M04",
+        "group": "M",
+        "round": 6,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M04",
+        "group": "M",
+        "round": 7,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M04",
+        "group": "M",
+        "round": 8,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M04",
+        "group": "M",
+        "round": 9,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M04",
+        "group": "M",
+        "round": 10,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M05",
+        "group": "M",
+        "round": 6,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M05",
+        "group": "M",
+        "round": 7,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M05",
+        "group": "M",
+        "round": 8,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M05",
+        "group": "M",
+        "round": 9,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M05",
+        "group": "M",
+        "round": 10,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M06",
+        "group": "M",
+        "round": 6,
+        "x": 2,
+        "r": 2.5,
+        "target": 2.5,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M06",
+        "group": "M",
+        "round": 7,
+        "x": 2,
+        "r": 2.5,
+        "target": 2.5,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M06",
+        "group": "M",
+        "round": 8,
+        "x": 2,
+        "r": 2.5,
+        "target": 2.5,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M06",
+        "group": "M",
+        "round": 9,
+        "x": 1,
+        "r": 1.5,
+        "target": 1.5,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M06",
+        "group": "M",
+        "round": 10,
+        "x": 1,
+        "r": 0.0,
+        "target": 1.5,
+        "eligible": true,
+        "fulfilled": false
+      },
+      {
+        "pair": "M07",
+        "group": "M",
+        "round": 6,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M07",
+        "group": "M",
+        "round": 7,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M07",
+        "group": "M",
+        "round": 8,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M07",
+        "group": "M",
+        "round": 9,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M07",
+        "group": "M",
+        "round": 10,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M08",
+        "group": "M",
+        "round": 6,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M08",
+        "group": "M",
+        "round": 7,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M08",
+        "group": "M",
+        "round": 8,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M08",
+        "group": "M",
+        "round": 9,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      },
+      {
+        "pair": "M08",
+        "group": "M",
+        "round": 10,
+        "x": 6,
+        "r": 7.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": false
+      },
+      {
+        "pair": "M11",
+        "group": "M",
+        "round": 6,
+        "x": 6,
+        "r": 9.0,
+        "target": 9.0,
+        "eligible": true,
+        "fulfilled": true
+      }
+    ],
+    "method": "按新版PPT适用窗口及用户确认口径；仅统计满足转出条件的轮次，严格等于数值约定记为兑现。E07、M09无明确数值规则。"
+  },
+  "phases": [
+    {
+      "group": "E",
+      "period": "全部十轮",
+      "n": 100,
+      "ratio_n": 98,
+      "e": 8.045,
+      "r": 8.0,
+      "er": 0.4658163265306123,
+      "rr": 0.4672902494331066
+    },
+    {
+      "group": "E",
+      "period": "R1—R5",
+      "n": 50,
+      "ratio_n": 50,
+      "e": 8.3,
+      "r": 8.5,
+      "er": 0.475,
+      "rr": 0.4916666666666667
+    },
+    {
+      "group": "E",
+      "period": "R6—R10",
+      "n": 50,
+      "ratio_n": 48,
+      "e": 7.79,
+      "r": 7.5,
+      "er": 0.45625,
+      "rr": 0.4418981481481481
+    },
+    {
+      "group": "M",
+      "period": "全部十轮",
+      "n": 90,
+      "ratio_n": 80,
+      "e": 6.316666666666666,
+      "r": 6.155555555555556,
+      "er": 0.4501736111111111,
+      "rr": 0.4292361111111111
+    },
+    {
+      "group": "M",
+      "period": "R1—R5",
+      "n": 45,
+      "ratio_n": 36,
+      "e": 4.855555555555555,
+      "r": 4.777777777777778,
+      "er": 0.42554012345679015,
+      "rr": 0.39598765432098765
+    },
+    {
+      "group": "M",
+      "period": "R6—R10",
+      "n": 45,
+      "ratio_n": 44,
+      "e": 7.777777777777778,
+      "r": 7.533333333333333,
+      "er": 0.4703282828282828,
+      "rr": 0.456439393939394
+    }
+  ],
+  "jumps": [
+    {
+      "pair": "M02",
+      "x5": 3.0,
+      "x6": 6.0,
+      "r5": 4.5,
+      "r6": 9.0,
+      "delta": 3.0
+    },
+    {
+      "pair": "M03",
+      "x5": 6.0,
+      "x6": 6.0,
+      "r5": 8.0,
+      "r6": 9.0,
+      "delta": 0.0
+    },
+    {
+      "pair": "M04",
+      "x5": 6.0,
+      "x6": 6.0,
+      "r5": 9.0,
+      "r6": 9.0,
+      "delta": 0.0
+    },
+    {
+      "pair": "M05",
+      "x5": 6.0,
+      "x6": 6.0,
+      "r5": 9.0,
+      "r6": 9.0,
+      "delta": 0.0
+    },
+    {
+      "pair": "M06",
+      "x5": 0.0,
+      "x6": 2.0,
+      "r5": 0.0,
+      "r6": 2.5,
+      "delta": 2.0
+    },
+    {
+      "pair": "M07",
+      "x5": 0.0,
+      "x6": 6.0,
+      "r5": 0.0,
+      "r6": 9.0,
+      "delta": 6.0
+    },
+    {
+      "pair": "M08",
+      "x5": 0.0,
+      "x6": 6.0,
+      "r5": 0.0,
+      "r6": 9.0,
+      "delta": 6.0
+    },
+    {
+      "pair": "M09",
+      "x5": 6.0,
+      "x6": 6.0,
+      "r5": 9.0,
+      "r6": 9.0,
+      "delta": 0.0
+    },
+    {
+      "pair": "M11",
+      "x5": 5.0,
+      "x6": 6.0,
+      "r5": 7.0,
+      "r6": 9.0,
+      "delta": 1.0
+    }
   ]
 }
